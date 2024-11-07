@@ -4,6 +4,8 @@
 
 **Descrição:**
 
-Formulário de pedidos de uma pizzaria, utilizando HTML.
+Formulário de pedidos de uma pizzaria utilizando HTML.
 
 **Link do projeto:**
+
+https://maike-simoncini.github.io/Formulario-Exercicio/
