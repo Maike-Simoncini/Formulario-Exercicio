@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-Exercicio</title>
+</head>
+
+<body>
+    <h1>Pedido Pizzaria</h1>
+    <form method="get">
+        Nome:
+        <input type="text" name="Nome"> <br><br>
+        Email:
+        <input type="email" name="email"> <br><br>
+        Tamanho: <br>
+        <input type="radio" name="Tamanho" value="P"> Pequeno <br>
+        <input type="radio" name="Tamanho" value="M"> Médio <br>
+        <input type="radio" name="Tamanho" value="G"> Grande <br><br>
+        Sabor:
+        <select name="sabor">
+            <option></option>
+            <option>Calabresa</option>
+            <option>Queijo</option>
+            <option>Presunto</option>
+            <option>Napolitana</option>
+        </select> <br><br>
+        Adicionais: <br>
+        <input type="checkbox" name="borda" value="sim"> Borda <br>
+        <input type="checkbox" name="Catupiry" value="sim"> Catupiry <br>
+        <input type="checkbox" name="Queijo" value="sim"> Queijo Extra <br><br>
+        Data de Entrega:
+        <input type="date" name="dataentrega"> <br><br>
+        Comentários: <br>
+        <textarea name="mensagem" rows="10" cols="27"></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
